@@ -209,6 +209,34 @@ body{
     margin: 15px 0px;
 }
 
+/* FAQ */
+
+.faq{
+    margin-bottom: 20px;
+}
+
+.faqWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-half h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.faq-item{
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+
+.faq-item h4{
+    font-size: 22px;
+    margin: 8px 0px;
+}
+
 /* Footer */
 .footer{
     background: #151414;
@@ -277,4 +305,8 @@ body{
     line-height: 24px;
     color: #FFFFFF;
     margin-top: 10px;
+}
+
+.social-icon{
+    margin-top: 50px;
 }
